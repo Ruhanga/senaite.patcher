@@ -53,7 +53,7 @@ setup(
         'plone.api>=1.8.4',
         'plone.restapi < 8.0.0',
         'plone.app.dexterity',
-        'senaite.core>1.3.6',
+        'senaite.core < 2.1.0',
         'collective.monkeypatcher',
     ],
     extras_require={
