@@ -1,0 +1,5 @@
+===============
+senaite.patcher
+===============
+
+User documentation
