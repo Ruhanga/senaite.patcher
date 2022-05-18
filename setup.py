@@ -53,10 +53,8 @@ setup(
         'plone.api>=1.8.4',
         'plone.restapi < 8.0.0',
         'plone.app.dexterity',
-        'senaite.core',
+        'senaite.core>1.3.6',
         'collective.monkeypatcher',
-        'archetypes.schemaextender==3.0.1',
-        'zopyx.txng3.ext==4.0.0',
     ],
     extras_require={
         'test': [
