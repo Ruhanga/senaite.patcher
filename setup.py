@@ -45,7 +45,7 @@ setup(
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
-    python_requires=">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*",
+    python_requires=">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,!=3.9.*",
     install_requires=[
         'setuptools',
         # -*- Extra requirements: -*-
@@ -53,6 +53,10 @@ setup(
         'plone.api>=1.8.4',
         'plone.restapi < 8.0.0',
         'plone.app.dexterity',
+        'senaite.core',
+        'collective.monkeypatcher',
+        'archetypes.schemaextender==3.0.1',
+        'zopyx.txng3.ext==4.0.0',
     ],
     extras_require={
         'test': [
